@@ -38,10 +38,3 @@ class Bike(Car):
         self.show_details()
         logger.info(f'It is powered by a {self.engine} cc Engine and has a Horse Power of {self.horse_power} BHP.')
 
-
-i20 = Car(registration_no='KA-05-ML-518', fuel_type='Diesel', brake_system='Disc', top_speed=220, mileage=15, company='Hyundai', model='i20', variant='Hatch Back', price=1000000)
-i20.show_details()
-thunderbird = Bike(registration_no='KA-41-EH-6326', fuel_type='Petrol', brake_system='Disc', top_speed=120, mileage=35, company='Royal Enfield', model='ThunderBird', variant='Cruiser', price=190000, engine=350, horse_power=21)
-thunderbird.bike_details()
-activa = Bike(registration_no='KA-41-Y-7376', fuel_type='Petrol', brake_system='Drum', top_speed=100, mileage=45, company='Honda', model='Activa HET', variant='Scooter', price=50000, engine=100, horse_power=10)
-activa.bike_details()
